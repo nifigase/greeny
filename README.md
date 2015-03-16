@@ -5,7 +5,7 @@ Greeny is a C++ Green threads and coroutines library
 
 This is a complete rewrite of https://github.com/yigalirani/green_threads library.
 
-** Advantages over original library**
+**Advantages over original library**
 * Multiple platforms are supported. Original library was hardly bound to MS VisualStudio on i386.
 * Fully object-oriented design with no global variables - this allows using green threads in multithreaded programs. You may have multiple green thread sets (contexts) in multiple threads.
 * Arbitrary callback types (functors, callable objects, etc.)
