@@ -49,7 +49,7 @@ namespace Greeny
     Thread(const T& cb, size_t stack_sz, Tid tid) :
       fun_(cb), stack_sz_(stack_sz), stack_(new char[stack_sz_]),
       status_(gts_new), tid_(tid), posted_(false),
-      regs_(stack_ + stack_sz_ - 1)
+      regs_(stack_ + stack_sz_)
     {}
 
     /**
